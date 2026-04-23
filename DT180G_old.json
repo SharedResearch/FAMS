@@ -1,0 +1,42 @@
+{
+  "Laboration 1 Protocol": {
+    "Categories": ["Laboration 1", "Report", "Misc"],
+    "Components": [
+      {
+        "Info": "Introduction",
+        "Type": "Heading",
+        "Fragments": []
+      },
+      {
+        "Info": "Greet & convey outcome from assessment",
+        "Type": "Aspect",
+        "Fragments": ["@@@_PROCEDURES_PERSPECTIVE_ISSUE_1", "@@@_PROCEDURES_PERSPECTIVE_ISSUE_2", "@@@_PROCEDURES_SUBSTANCE_ISSUE"]
+      },
+      {
+        "Info": "Report Evaluation",
+        "Type": "Heading",
+        "Fragments": []
+      },
+      {
+        "Info": "Report procedures",
+        "Type": "Aspect",
+        "Fragments": ["@@@_PROCEDURES_PERSPECTIVE_ISSUE_1", "@@@_PROCEDURES_PERSPECTIVE_ISSUE_2", "@@@_PROCEDURES_SUBSTANCE_ISSUE"]
+      },
+      {
+        "Info": "Report discussion",
+        "Type": "Aspect",
+        "Fragments": ["@@@_DISCUSSION_ANALYZE_PURPOSE_ISSUE", "@@@_DISCUSSION_COHESION_ISSUE"]
+      }
+    ]
+  },
+  "Laboration 2 Protocol": {
+    "Categories": ["Laboration 2", "Report", "Misc"],
+    "Components": [
+      {
+        "Info": "Report Evaluation",
+        "Type": "Heading",
+        "Fragments": []
+      }
+    ]
+  }
+}

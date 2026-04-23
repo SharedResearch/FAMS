@@ -1,0 +1,127 @@
+{
+  "Laboration 1 Protocol": {
+    "Categories": ["Laboration 1", "Report", "Misc"],
+    "Components": [
+      {
+        "Info": "Greet & convey outcome from assessment",
+        "Type": "Aspect",
+        "Fragments": ["@@@_OUTCOME_PASSED_REMARKS_1", "@@@_OUTCOME_PASSED_REMARKS_2", "@@@_OUTCOME_SINGLE_DIVERGENCE", "@@@_OUTCOME_VIOLATIONS"]
+      },
+      {
+        "Info": "",
+        "Type": "Static Content",
+        "Fragments": ["@@@_LAB_1_INFORMATION"]
+      },
+      {
+        "Info": "Solution Evaluation",
+        "Type": "Heading",
+        "Fragments": []
+      },
+      {
+        "Info": "Unit tests",
+        "Type": "Aspect",
+        "Fragments": ["@@@_TEST_OK", "@@@_TEST_ISSUE", "@@@_TEST_DEFAULT_FILE"]
+      },
+      {
+        "Info": "Build & execution",
+        "Type": "Aspect",
+        "Fragments": ["@@@_BUILD_EXECUTION_OK", "@@@_BUILD_EXECUTION_ISSUE_1"]
+      },
+      {
+        "Info": "Player class",
+        "Type": "Aspect",
+        "Fragments": ["@@@_PLAYER_OK_1", "@@@_PLAYER_OK_2"]
+      },
+      {
+        "Info": "Tool base class",
+        "Type": "Aspect",
+        "Fragments": ["@@@_TOOL_BASE_OK", "@@@_TOOL_BASE_ISSUE_1", "@@@_TOOL_BASE_ISSUE_2", "@@@_TOOL_BASE_ISSUE_3"]
+      },
+      {
+        "Info": "Tool base class, final member",
+        "Type": "Aspect",
+        "Fragments": ["@@@_TOOL_BASE_FINAL_MEMBER_OK", "@@@_TOOL_BASE_FINAL_MEMBER_ISSUE"]
+      },
+      {
+        "Info": "Concrete tool, issue",
+        "Type": "Aspect",
+        "Fragments": ["@@@_CONCRETE_TOOLS_MODULE_SCOPE_ISSUE", "@@@_TOOL_CONCRETE_ISSUE_1"]
+      },
+      {
+        "Info": "Determine winner",
+        "Type": "Aspect",
+        "Fragments": ["@@@_DETERMINE_WINNER_OK_1", "@@@_DETERMINE_WINNER_OK_2", "@@@_DETERMINE_WINNER_IDENTITY"]
+      },
+      {
+        "Info": "Override annotations",
+        "Type": "Aspect",
+        "Fragments": ["@@@_OVERRIDE_ANNOTATION_OK", "@@@_OVERRIDE_ANNOTATION_ISSUE_1", "@@@_OVERRIDE_ANNOTATION_ISSUE_2"]
+      },
+      {
+        "Info": "Documentation, classes",
+        "Type": "Aspect",
+        "Fragments": ["@@@_DOCUMENTATION_OK", "@@@_DOCUMENTATION_ISSUE_1"]
+      },
+      {
+        "Info": "Documentation, change of author",
+        "Type": "Aspect",
+        "Fragments": ["@@@_AUTHOR_CHANGE_OK", "@@@_AUTHOR_CHANGE_1", "@@@_AUTHOR_CHANGE_2"]
+      },
+      {
+        "Info": "Documentation, inherit docs",
+        "Type": "Aspect",
+        "Fragments": ["@@@_JAVADOC_INHERIT_OVERWRITES_ISSUE", "@@@_JAVADOC_OVERRIDDEN_DOCS_ISSUE"]
+      },
+      {
+        "Info": "Documentation, package information",
+        "Type": "Aspect",
+        "Fragments": ["@@@_PACKAGE_INFO_DESCRIPTOR_OK", "@@@_PACKAGE_INFO_DESCRIPTOR_ISSUE", "@@@_PACKAGE_INFO_MISSING_ISSUE"]
+      },
+      {
+        "Info": "Report Evaluation",
+        "Type": "Heading",
+        "Fragments": []
+      },
+      {
+        "Info": "Report purpose",
+        "Type": "Aspect",
+        "Fragments": ["@@@_PURPOSE_ISSUE_1", "@@@_RELATE_RESULTS_TO_GOALS"]
+      },
+      {
+        "Info": "Report procedures",
+        "Type": "Aspect",
+        "Fragments": ["@@@_PROCEDURES_PERSPECTIVE_ISSUE_1", "@@@_PROCEDURES_PERSPECTIVE_ISSUE_2", "@@@_PROCEDURES_SUBSTANCE_ISSUE", "@@@_PROCEDURES_COHESION_ISSUE"]
+      },
+      {
+        "Info": "Report discussion",
+        "Type": "Aspect",
+        "Fragments": ["@@@_DISCUSSION_ANALYZE_PURPOSE_ISSUE", "@@@_DISCUSSION_ANALYZE_METHODOLOGY_ISSUE", "@@@_DISCUSSION_COHESION_ISSUE", "@@@_DISCUSSION_SUBJECTIVE_CLAIMS_ISSUE", "@@@_OVERRELIANCE_ON_TESTS", "@@@_OVERSELLING_ARGUMENTS_PROOF"]
+      },
+      {
+        "Info": "Report general remarks",
+        "Type": "Aspect",
+        "Fragments": ["@@@_ABOUT_SUBJECTIVITY", "@@@_BULLETS_RENDERING_ISSUE_1", "@@@_BULLET_POINTS_SYNTAX_ISSUE", "@@@_CODE_SNIPPETS_ISSUE", "@@@_CURRENT_STATE_OF_SOLUTION", "@@@_MD_STRICT_SYNTAX", "@@@_OVERRELIANCE_ON_IMAGES", "@@@_UNWARRANTED_SUB_HEADINGS"]
+      },
+      {
+        "Info": "",
+        "Type": "Static Content",
+        "Fragments": ["@@@_LAB_1_REFLECTION"]
+      }
+    ]
+  },
+  "Laboration 2 Protocol": {
+    "Categories": ["Laboration 2", "Report", "Misc"],
+    "Components": [
+      {
+        "Info": "Report Evaluation",
+        "Type": "Heading",
+        "Fragments": []
+      },
+      {
+        "Info": "Report procedures",
+        "Type": "Aspect",
+        "Fragments": ["@@@_PROCEDURES_PERSPECTIVE_ISSUE_1", "@@@_PROCEDURES_PERSPECTIVE_ISSUE_2", "@@@_PROCEDURES_SUBSTANCE_ISSUE"]
+      }
+    ]
+  }
+}

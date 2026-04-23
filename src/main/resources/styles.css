@@ -1,0 +1,379 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-base: white;
+
+    /*-primary-color: #638993;*/
+    -primary-color: rgba(99, 137, 147, 0.56);
+    /*-secondary-color: #6477a6;*/
+    -secondary-color: rgba(100, 119, 166, 0.56);
+    -tetriary-color: rgba(60, 24, 138, 0.16);
+}
+
+body { /* for webview */
+    background: linear-gradient(to bottom, white, rgba(99, 137, 147, 0.56));
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    padding: 10;
+}
+
+#sectionTop {
+    -fx-background-color: linear-gradient(to top, white, -secondary-color);
+}
+
+#sectionLeft {
+    -fx-background-color: linear-gradient(to bottom, white, -secondary-color);
+    -fx-pref-width: 100;
+}
+
+#sectionCenter {
+    -fx-background-color: linear-gradient(to bottom, white, -primary-color);
+}
+
+.web-view {
+    /*-fx-vbar-policy: "NEVER";
+    -fx-hbar-policy: "NEVER";*/
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+}
+
+#tinyOutputView {
+    -fx-font-size: 6;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #b2bbc6;
+}
+
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#gradingToolbar {
+    -fx-background-color: transparent;
+    -fx-padding: 10px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+#gradingSideBar {
+    /*-fx-background-color: linear-gradient(to bottom, white, -secondary-color);*/
+    -fx-background-color: transparent;
+    /*-fx-padding: 5px;
+    -fx-spacing: 5px;*/
+  }
+
+/* make sure textArea doesn't show focused border. */
+.text-area {
+    -fx-background-color: transparent, transparent;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-padding: 10;
+}
+
+.text-area, .text-area .content {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent;
+}
+
+#gradingTextArea {
+    -fx-font-size: 14px;
+}
+
+/*
+#aspectTextArea {
+    -fx-background-color: transparent, transparent;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 12px;
+    -fx-padding: 10px,0,0,0;
+}*/
+
+#aspectTextArea, #aspectTextArea .content {
+    /*-fx-background-color: transparent, transparent;*/
+    -fx-background-color: white;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 12px;
+    -fx-padding: 10px,0,0,0;
+    -fx-pref-width: 450;
+    -fx-pref-height: 100;
+}
+
+#aspectTextArea:focused .content {
+    -fx-background-color: transparent, transparent;
+}
+
+#toolBtn {
+    -fx-background-color: transparent;
+    -fx-content-display: graphic-only;
+    -fx-opacity: 0.8;
+}
+
+#toolBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#toolBtn:pressed {
+    -fx-scale-x: 0.5;
+    -fx-scale-y: 0.5;
+}
+
+#toolBtn:disabled {
+    -fx-opacity: 0.5;
+    /*-fx-border-width: 2;*/
+    -fx-border-width: 0px 0px 3px 0px; /* top, right, bottom, left */
+    -fx-border-color: black;
+    /*-fx-border-radius: 10;*/
+    /*-fx-border-style: ridge;*/
+}
+
+#customLink {
+    -fx-background-color: transparent;
+    -fx-text-fill: #545454;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 10;
+    -fx-border-width: 1 0 0 0;
+    -fx-border-color: #808080FF;
+    -fx-padding: 8 5 8 5;
+    /*-fx-underline: none;*/
+}
+
+#customLink:hover {
+    -fx-text-fill: #808080FF;
+}
+
+#customLink:selected {
+    -fx-text-fill: #d06d07;
+}
+
+/* FRAGMENT CONTENT */
+
+/*
+#fragmentContent {
+    -fx-background-color: transparent;
+    -fx-fit-to-height: true;
+    -fx-fit-to-width: true;
+}*/
+
+#fragmentInfoBox {
+    -fx-background-color: linear-gradient(to top, white, -tetriary-color);
+    -fx-spacing: 10;
+    -fx-padding: 10 10 30 10;
+}
+
+#fragmentIDField {
+    -fx-background-color: transparent;
+    -fx-text-fill: #a22424;
+    -fx-border-color: #646363;
+    -fx-border-radius: 10;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 11;
+    -fx-font-weight: bold;
+    -fx-pref-width: 450;
+    -fx-padding: 10px;
+}
+/*
+#fragmentRelationField {
+    -fx-background-color: transparent;
+    -fx-border-color: #646363;
+    -fx-border-radius: 10;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 11;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200;
+    -fx-padding: 10px;
+    -fx-alignment: center right;
+}*/
+
+#fragmentLabel {
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-pref-width: 100;
+    -fx-text-fill: #494949;
+    -fx-padding: 5 0 0 0;
+    /*-fx-text-alignment: left center;*/
+}
+
+/* ------------------ */
+
+#feedbackSelection {
+    /*-fx-mark-color: black;
+    -fx-mark-highlight-color: black;*/
+    -fx-background-color: transparent;
+    -fx-border-color: #646363;
+    -fx-border-radius: 5;
+    -fx-border-width: 2 0 2 0;
+    -fx-pref-width: 150;
+}
+
+#feedbackSelection .label {
+    -fx-text-fill: #6e4c05;
+    -fx-alignment: CENTER;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 12;
+}
+
+#feedbackSelection .label:hover {
+    -fx-opacity: 0.5;
+}
+
+/*
+#feedbackSelection .list-cell {
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+}*/
+
+#fragmentSelection {
+    -fx-background-color: transparent;
+    -fx-border-color: #646363;
+    -fx-border-radius: 5;
+    -fx-border-width: 2 0 2 0;
+    -fx-pref-width: 450;
+    -fx-padding: 5 0 5 0;
+}
+
+#fragmentSelection .label {
+    -fx-text-fill: #6e4c05;
+    /*-fx-alignment: LEFT;*/
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 12;
+}
+
+#fragmentSelection .label:hover {
+    -fx-opacity: 0.5;
+}
+
+
+#protocolView {
+    /*-fx-background-color: linear-gradient(to bottom, white, -primary-color);*/
+    -fx-background-color: transparent;
+    -fx-padding: 10px;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-hgap: 20;
+    -fx-vgap: 5;
+    -fx-alignment: top-center;
+    -fx-fit-to-width: true;
+    /*-fx-fit-to-height: true;*/
+}
+/*
+#protocolSelection {
+    -fx-background-color: transparent;
+    -fx-alignment: right;
+}
+
+#protocolSelection .label {
+    -fx-text-fill: black;
+    -fx-font-family: 'Consolas';
+    -fx-font-size: 12;
+    -fx-font-weight: bolder;
+}*/
+
+/* PROTOCOL VIEW */
+
+/*
+#componentBoxOdd #componentBoxEven {
+    -fx-padding: 10;
+    -fx-border-radius: 10;
+}*/
+
+#componentBoxOdd {
+    -fx-background-color: rgba(143, 142, 142, 0.15);
+    -fx-padding: 10;
+}
+
+#componentBoxEven {
+    -fx-background-color: rgba(143, 142, 142, 0.10);
+    -fx-padding: 10;
+}
+
+#componentBoxOdd:hover {
+    -fx-background-color: rgba(222, 221, 221, 0.53);
+}
+
+#componentBoxEven:hover {
+    -fx-background-color: rgba(222, 221, 221, 0.53);
+}
+
+#aspectInfoField {
+    -fx-background-color: transparent;
+    -fx-text-fill: #c97f23;
+    -fx-border-color: #646363;
+    -fx-border-radius: 10;
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-pref-width: 400;
+    -fx-padding: 10px;
+}
+
+#fragmentsMenuButton {
+    -fx-background-color: transparent;
+    -fx-content-display: graphic-only;
+    -fx-opacity: 0.8;
+}
+
+#fragmentsMenuButton:hover {
+    -fx-opacity: 0.5;
+}
+
+#fragmentsMenuButton:pressed {
+    -fx-scale-x: 0.5;
+    -fx-scale-y: 0.5;
+}
+
+#fragmentsMenuButton .menu-item .label {
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 10;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+#componentTypeLabel {
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 11;
+    -fx-text-fill: rgba(203, 104, 4, 0.62);
+    -fx-pref-width: 200;
+    /*-fx-text-fill: rgba(4, 4, 203, 0.62);*/
+    /*-fx-padding: 10 0 0 0;*/
+}
+
+#headingLabel {
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-pref-width: 400;
+    /*-fx-text-fill: rgba(95, 68, 150, 0.70);*/
+    -fx-text-fill: black;
+}
+
+/* ------------- */
+
+.hyperlink {
+    -fx-border-color: transparent;
+}
+
+#aspectLabel {
+    -fx-font-family: 'Verdana', Arial, sans-serif;
+    -fx-font-weight: normal;
+    -fx-font-size: 14;
+    -fx-text-fill: black;
+}
+
+/*
+#aspectBoxOdd {
+    -fx-background-color: #ccdef6;
+}
+
+#aspectBoxEven {
+    -fx-background-color: #d5e0f5;
+}*/
